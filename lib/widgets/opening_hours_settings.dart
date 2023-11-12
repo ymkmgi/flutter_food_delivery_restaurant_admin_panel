@@ -73,7 +73,7 @@ class OpeningHoursSettings extends StatelessWidget {
           width: 100,
           child: Text(
             openingHours.day,
-            style: Theme.of(context).textTheme.headline5,
+            style: Theme.of(context).textTheme.headlineSmall,
           ),
         ),
       ],
@@ -99,11 +99,11 @@ class OpeningHoursSettings extends StatelessWidget {
       child: openingHours.isOpen
           ? Text(
               'Open from ${openingHours.openAt} to ${openingHours.closeAt}',
-              style: Theme.of(context).textTheme.headline5,
+              style: Theme.of(context).textTheme.headlineSmall,
             )
           : Text(
               'Closed on ${openingHours.day}',
-              style: Theme.of(context).textTheme.headline5,
+              style: Theme.of(context).textTheme.headlineSmall,
             ),
     );
   }

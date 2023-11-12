@@ -29,11 +29,11 @@ class ProductCard extends StatelessWidget {
           ),
           Text(
             product.name,
-            style: Theme.of(context).textTheme.headline5,
+            style: Theme.of(context).textTheme.headlineSmall,
           ),
           Text(
             '\$${product.price}',
-            style: Theme.of(context).textTheme.headline6,
+            style: Theme.of(context).textTheme.titleLarge,
           ),
         ],
       ),

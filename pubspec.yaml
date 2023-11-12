@@ -37,9 +37,10 @@ dependencies:
   flutter_svg: ^1.0.0
   equatable: ^2.0.3
   flutter_bloc: ^8.0.1
-  cloud_firestore: ^3.1.10
-  firebase_core: ^1.13.1
-  flutterfire_ui: ^0.3.6+1
+  cloud_firestore: ^4.13.0
+  firebase_core: ^2.22.0
+  flutterfire_ui: ^0.4.3+20
+  bloc: ^8.1.2
 
 dev_dependencies:
   flutter_test:
@@ -50,7 +51,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,10 +1,8 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_food_delivery_backend/widgets/add_product_card.dart';
 import '/blocs/blocs.dart';
 import '/config/responsive.dart';
-import '/models/models.dart';
 
 import '/widgets/widgets.dart';
 
@@ -102,7 +100,7 @@ class MenuScreen extends StatelessWidget {
         children: [
           Text(
             'Products',
-            style: Theme.of(context).textTheme.headline4,
+            style: Theme.of(context).textTheme.headlineMedium,
           ),
           const SizedBox(height: 20),
           BlocBuilder<ProductBloc, ProductState>(
@@ -155,7 +153,7 @@ class MenuScreen extends StatelessWidget {
         children: [
           Text(
             'Categories',
-            style: Theme.of(context).textTheme.headline4,
+            style: Theme.of(context).textTheme.headlineMedium,
           ),
           const SizedBox(height: 20),
           BlocBuilder<CategoryBloc, CategoryState>(

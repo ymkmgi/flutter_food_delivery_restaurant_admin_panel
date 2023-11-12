@@ -39,7 +39,7 @@ class AddProductCard extends StatelessWidget {
           const SizedBox(height: 10),
           Text(
             'Add a Product',
-            style: Theme.of(context).textTheme.headline5,
+            style: Theme.of(context).textTheme.headlineSmall,
           ),
         ],
       ),
@@ -66,7 +66,7 @@ class AddProductCard extends StatelessWidget {
           children: [
             Text(
               'Add a Product',
-              style: Theme.of(context).textTheme.headline2,
+              style: Theme.of(context).textTheme.displayMedium,
             ),
             const SizedBox(height: 20),
             CustomDropdownButton(
@@ -127,7 +127,7 @@ class AddProductCard extends StatelessWidget {
                 ),
                 child: Text(
                   'Save',
-                  style: Theme.of(context).textTheme.headline5!.copyWith(
+                  style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                         color: Colors.white,
                       ),
                 ),

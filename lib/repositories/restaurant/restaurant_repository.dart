@@ -20,7 +20,7 @@ class RestaurantRepository extends BaseRestaurantRepository {
   Future<void> editRestaurantSettings(Restaurant restaurant) async {
     await _firebaseFirestore
         .collection('restaurants')
-        .doc('MbyvrvKY1hdNohNU11EL')
+        .doc('z2bPfbMVhKbLxguz9lrG')
         .update(restaurant.toDocument());
   }
 
@@ -30,7 +30,7 @@ class RestaurantRepository extends BaseRestaurantRepository {
   ) async {
     await _firebaseFirestore
         .collection('restaurants')
-        .doc('MbyvrvKY1hdNohNU11EL')
+        .doc('z2bPfbMVhKbLxguz9lrG')
         .update({
       'openingHours': openingHours.map(
         (openingHour) {
@@ -44,7 +44,7 @@ class RestaurantRepository extends BaseRestaurantRepository {
   Future<void> editProducts(List<Product> products) async {
     await _firebaseFirestore
         .collection('restaurants')
-        .doc('MbyvrvKY1hdNohNU11EL')
+        .doc('z2bPfbMVhKbLxguz9lrG')
         .update({
       'products': products.map(
         (product) {
@@ -58,7 +58,7 @@ class RestaurantRepository extends BaseRestaurantRepository {
   Stream<Restaurant> getRestaurant() {
     return _firebaseFirestore
         .collection('restaurants')
-        .doc('MbyvrvKY1hdNohNU11EL')
+        .doc('z2bPfbMVhKbLxguz9lrG')
         .snapshots()
         .map((snapshot) {
       return Restaurant.fromSnapshot(snapshot);

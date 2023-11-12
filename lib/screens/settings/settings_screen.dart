@@ -46,7 +46,7 @@ class SettingsScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 20.0),
             child: Text(
               'Opening Hours',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ),
           _buildOpeningHours(),
@@ -145,7 +145,7 @@ class SettingsScreen extends StatelessWidget {
               children: [
                 Text(
                   'Restaurant Description',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 const SizedBox(height: 20),
                 CustomTextFormField(
@@ -200,7 +200,7 @@ class SettingsScreen extends StatelessWidget {
               children: [
                 Text(
                   'Basic Information',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 const SizedBox(height: 20),
                 CustomTextFormField(

@@ -18,7 +18,7 @@ class CustomDropdownButton extends StatelessWidget {
           width: 75,
           child: Text(
             'Category',
-            style: Theme.of(context).textTheme.headline6,
+            style: Theme.of(context).textTheme.titleLarge,
           ),
         ),
         const SizedBox(width: 20),
@@ -44,7 +44,7 @@ class CustomDropdownButton extends StatelessWidget {
                   value: value,
                   child: Text(
                     value,
-                    style: Theme.of(context).textTheme.headline6,
+                    style: Theme.of(context).textTheme.titleLarge,
                   ),
                 );
               }).toList(),

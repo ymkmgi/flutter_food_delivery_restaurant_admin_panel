@@ -39,7 +39,7 @@ class CustomDrawer extends StatelessWidget {
                 'Your Restaurant Name',
                 style: Theme.of(context)
                     .textTheme
-                    .headline2!
+                    .displayMedium!
                     .copyWith(color: Colors.white),
               ),
             ),
@@ -55,7 +55,7 @@ class CustomDrawer extends StatelessWidget {
                 );
               },
             );
-          }).toList(),
+          }),
         ],
       ),
     );
